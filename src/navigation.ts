@@ -52,16 +52,16 @@ export const headerData = {
     //     },
     //   ],
     // },
-    {
-      text: 'Pricing',
-      href: '/pricing',
-    },
+    // {
+    //   text: 'Pricing',
+    //   href: '/pricing',
+    // },
     {
       text: 'Articles',
       href: getPermalink('/blog'),
     },
   ],
-  actions: [{ text: 'Get Started', href: '/contact' }],
+  actions: [{ text: 'Book a Demo', href: '/contact' }],
 };
 
 export const footerData = {
@@ -69,12 +69,12 @@ export const footerData = {
     {
       title: 'Quick Links',
       links: [
-        { text: 'Home', href: '#' },
-        { text: 'About', href: '#' },
+        { text: 'Home', href: '/' },
+        // { text: 'About', href: '/about' },
         // { text: 'Services', href: '#' },
-        { text: 'Pricing', href: '#' },
-        { text: 'Articles', href: '#' },
-        { text: 'Contact', href: '#' },
+        // { text: 'Pricing', href: '#' },
+        { text: 'Articles', href: '/blog' },
+        { text: 'Book a Demo', href: '/book-demo' },
       ],
     },
     {
